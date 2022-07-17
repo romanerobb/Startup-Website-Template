@@ -1,9 +1,18 @@
 h1 {
-font-family: 'Montserrat';
+font-family: "Montserrat";
 color: #fff;
 font-size: 4rem;
 line-height: 1.5;
 font-weight: 900;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+P {
+    color: #8f8f8f;
 }
 
 #title {
@@ -15,7 +24,7 @@ font-weight: 900;
 }
 
 #testimonials {
-    background-color: black;
+    background-color: white;
 }
 
 #press {
@@ -36,13 +45,16 @@ font-weight: 900;
 }
 
 .nav-link {
-    font-family: "Monsterrat-Black";
+    font-family: "Monsterrat";
     font-size: 1.2rem;
+    font-weight: 900;
+    color: #fff;
 }
 
 .navbar-brand {
     font-family: "Montserrat";
     font-size: 2.5rem;
+    font-weight: 900;
     color: #fff;
 }
 
@@ -52,4 +64,13 @@ font-weight: 900;
 
 .title-image {
     width: 60%;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
