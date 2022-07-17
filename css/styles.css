@@ -6,6 +6,13 @@ line-height: 1.5;
 font-weight: 900;
 }
 
+h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-family: "Montserrat";
     font-weight: 900;
@@ -19,21 +26,8 @@ P {
     background-color: #ff4c68;
 }
 
-#features {
-    background-color: white;
-}
-
-#testimonials {
-    background-color: white;
-}
-
-#press {
-    background-color: white;
-}
-
 .container-fluid {
     padding: 3% 15%;
-
 }
 
 .navbar {
@@ -82,4 +76,11 @@ P {
 
 .icon:hover {
     color: #ff4c68;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
 }
