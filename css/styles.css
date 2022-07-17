@@ -84,3 +84,9 @@ P {
     background-color: #ef8172;
     color: #fff;
 }
+
+.testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
