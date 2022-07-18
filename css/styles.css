@@ -117,7 +117,7 @@ P {
 }
 
 #pricing {
-    padding: 7% 15%;
+    padding: 100px;
 }
 
 #pricing h2 {
@@ -140,4 +140,8 @@ P {
 
 #cta h3 {
     text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
