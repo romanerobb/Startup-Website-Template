@@ -9,7 +9,7 @@ font-weight: 900;
 h2 {
     font-family: "Montserrat";
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1.5;
 }
 
@@ -120,6 +120,10 @@ P {
     padding: 7% 15%;
 }
 
+#pricing h2 {
+    font-size: 3.5rem;
+}
+
 #investors {
     text-align: center;
 }
@@ -130,6 +134,10 @@ P {
 }
 
 #cta {
-    padding: 5% 10%;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+#cta h3 {
     text-align: center;
 }
