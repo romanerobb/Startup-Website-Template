@@ -36,12 +36,13 @@ P {
 
 .nav-item {
     padding: 0 18px;
+    font-family: "Monsterrat";
 }
 
 .nav-link {
     font-family: "Monsterrat";
-    font-size: 1.2rem;
-    font-weight: 900;
+    font-size: 1.5rem;
+    font-weight: 1600;
     color: #fff;
 }
 
@@ -103,4 +104,33 @@ P {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+#footer {
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+    padding: 1% 10%;
+    margin-bottom: 20px;
+}
+
+#pricing {
+    padding: 5% 10%;
+}
+
+#investors {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.investor-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#cta {
+    padding: 5% 10%;
+    text-align: center;
 }

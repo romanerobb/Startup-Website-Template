@@ -38,15 +38,17 @@
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-          <a class="nav-link" href="https://robbcg.com/">Home</span></a></li>
+          <a class="nav-link" href="index.html">Home</span></a></li>
           <li class="nav-item">
-          <a class="nav-link" href="https://robbcg.com/">Features</a></li>
+          <a class="nav-link" href="#features">Features</a></li>
           <li class="nav-item">
-          <a class="nav-link" href="https://robbcg.com/">Pricing</a></li>
+          <a class="nav-link" href="#testimonials">Testimonials</a></li>
           <li class="nav-item">
-          <a class="nav-link" href="https://robbcg.com/">Investors</a></li>
+          <a class="nav-link" href="#pricing">Pricing</a></li>
           <li class="nav-item">
-          <a class="nav-link" href="https://robbcg.com/">Contact</a></li>
+          <a class="nav-link" href="#investors">Investors</a></li>
+          <li class="nav-item">
+          <a class="nav-link" href="#cta">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -104,22 +106,22 @@
 
   <section id="testimonials">
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="500">
       <div class="carousel-inner">
         <div class="carousel-item active">
-                    <h2>"I love this product so much that I cannot put it down. This is an absolutely great product!"</h2>
+                    <h2>"This is the best app I've ever used!"</h2>
               <img class="testimonial-image"src="images\seyma-robb.jpg" alt="Female model from New Jersey.">
               <em>Dr. Seyma Robb, New Jersey</em>
         </div>
         <div class="carousel-item">
-          <h2>"This is an absolutely great product!"</h2>
-          <img class="testimonial-image"src="images\seyma-robb.jpg" alt="Female model from New Jersey.">
-          <em>Dr. Seyma Robb, New Jersey</em>
+          <h2>"This is the top app on my phone!"</h2>
+          <img class="testimonial-image"src="images\guy-face.jpg" alt="Male model from New York.">
+          <em>Julis Driver, New York</em>
         </div>
         <div class="carousel-item">
-          <h2>"I love this product so much that I cannot put it down."</h2>
-          <img class="testimonial-image"src="images\seyma-robb.jpg" alt="Female model from New Jersey.">
-          <em>Dr. Seyma Robb, New Jersey</em>
+          <h2>"My friends love this app!"</h2>
+          <img class="testimonial-image"src="images\woman-face.jpg" alt="Female model from California.">
+          <em>Morgan Smith, California</em>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -138,6 +140,7 @@
   <!-- Press -->
 
   <section id="press">
+
     <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
@@ -150,44 +153,79 @@
 
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <h2>A Plan for Everyone!</h2>
+    <p>Simple and affordable pricing plans.</p>
 
+    <div class="row">
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="feature-box col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <h3>Plan 1</h3>
+      </div>
+      <div class="card-body">
+        <h2>Free</h2>
+        <p>5 Matches Per Day</p>
+        <p>10 Messages Per Day</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+      </div>
+    </div>
+  </div>
 
+  <div class="feature-box col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <h3>Plan 2</h3>
+      </div>
+      <div class="card-body">
+        <h2>$49 / mo</h2>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+      </div>
+    </div>
+  </div>
 
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+  <div class="feature-box col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <h3>Plan 3</h3>
+      </div>
+      <div class="card-body">
+        <h2>$99 / mo</h2>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+      </div>
+    </div>
+  </div>
 
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+  </div>
 
   </section>
+
+    <!-- Investors -->
+
+    <section id="investors">
+
+      <h3>We're very thankful to our amazing investors.</h3>
+
+      <img class="investor-logo" src="images\Andreessen_Horowitz_new_logo.svg.png" alt="Andreessen_Horowitz_new_logo">
+      <img class="investor-logo" src="images\google-ventures.png" alt="google-ventures">
+      <img class="investor-logo" src="images\kleiner-perkins-logo.png" alt="kleiner-perkins-logo">
+      <img class="investor-logo" src="images\greylock-partners.jpeg" alt="greylock-partners">
 
 
   <!-- Call to Action -->
 
   <section id="cta">
 
-    <h3>Insert more content here.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3>Contact Us Today!</h3>
+    <button type="button" href="https://robbcg.com/" class="btn btn-outline-primary btn-lg download-button"><i class="fa fa-envelope" aria-hidden="true"></i> Email Us!</button>
+    <button type="button" href="https://robbcg.com/" class="btn btn-outline-success btn-lg download-button"><i class="fa fa-phone-square" aria-hidden="true"></i> Call/Text!</button>
 
   </section>
 
@@ -196,7 +234,8 @@
 
   <footer id="footer">
 
-    <p>© Copyright Your Startup Website. Created by Romane Orlando Robb.</p>
+    <p>© Copyright Your Startup Website.<br>
+    Website designed by <a href="https://rorobb.com">ROMANE ORLANDO ROBB</a> and <a href="https://robbcre.com">ROBB CREATIVE GROUP</a>.</p>
 
   </footer>
   
