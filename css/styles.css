@@ -54,7 +54,7 @@ P {
 }
 
 .download-button {
-    margin: 5% 3% 5% 0%;
+    margin: 2% 2% 2% 0%;
 }
 
 .title-image {
@@ -134,7 +134,16 @@ P {
 }
 
 #cta {
+    background-color: #fff;
+    color: #000;
     padding: 5% 5%;
+    text-align: center;
+}
+
+#social-media {
+    background-color: #000;
+    color: #fff;
+    padding: 1%;
     text-align: center;
 }
 
@@ -147,6 +156,11 @@ P {
 }
 
 @media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
     .title-image {
         position: static;
     }
